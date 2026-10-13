@@ -7,7 +7,9 @@ authors = [
     { name = "Leonardo Roldán Pérez", email = "leroldanp@hotmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.4",
+]
 
 [project.scripts]
 reto-planta-f-sica-tec-de-monterrey = "reto_planta_f_sica_tec_de_monterrey:main"
