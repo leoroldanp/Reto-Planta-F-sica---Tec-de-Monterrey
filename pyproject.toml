@@ -1,21 +1,6 @@
 [project]
-name = "reto-planta-f-sica-tec-de-monterrey"
+name = "ma2015-201-planta-fisica"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-authors = [
-    { name = "Leonardo Roldán Pérez", email = "leroldanp@hotmail.com" }
-]
-requires-python = ">=3.14"
-dependencies = [
-    "ipykernel>=7.4.0",
-    "matplotlib>=3.11.2",
-    "numpy>=2.5.4",
-]
-
-[project.scripts]
-reto-planta-f-sica-tec-de-monterrey = "reto_planta_f_sica_tec_de_monterrey:main"
-
-[build-system]
-requires = ["uv_build>=0.13.0,<0.14.0"]
-build-backend = "uv_build"
+description = "Base docente reproducible del reto Planta Física"
+requires-python = ">=3.12,<3.15"
+dependencies = ["numpy==2.3.5", "matplotlib>=3.10,<4", "jupyterlab>=4.4,<5", "ipykernel>=6.30,<8"]
